@@ -1,1 +1,13 @@
-{}
+{
+    "idopontok":
+    [
+        {
+        "nap":"kedd",
+        "idop":"10:10"
+        },
+        {
+        "nap":"hetfo",
+        "idop":"09:10"
+        }
+
+]}
