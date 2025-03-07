@@ -1,15 +1,24 @@
-<script setup>
+<script >
 import { useIdoStore } from '@/stores/fog.js'
+import { onMounted } from 'vue'
+export default{
+    setup(){
+        const pont = useIdoStore()
+        onMounted(pont.loadAll)
+        return {availableTime: pont.availableTime}
+    }
+}
 
-const pont = useIdoStore()
 </script>
 
 <template>
-    <h1>Időpont foglalás</h1>
-    <p>Időpontok:</p>
-    <div v-for="p in pont.ido" :key="p.ido">
-        <p>Nap: {{ p.Nap }}</p>
-        <p>Ido: {{ p.Ido }}</p>
+    <div class="container">
+        <h1>Időpont foglalas</h1>
+        <ul>
+            <li v-for="time in availableTime" :key="time">
+                {{ time }}
+            </li>
+        </ul>
     </div>
     <RouterLink to="/adatok">Foglalás</RouterLink>
 </template>

@@ -1,15 +1,25 @@
 <script setup>
+import { useIdoStore } from '@/stores/fog.js'
+
+export default{
+    props: ['time'],
+    setup(props){
+        const store = useIdoStore();
+        
+    }
+}
 
 </script>
 
 <template>
-    <form >
-        <h1>Kérem adja meg az adatait</h1>
-        <p>Telefonszám</p>
-        <input type="text" name="" id="">
-        <p>Név</p>
-        <input type="text" name="" id="">
-    </form>
+    <div class="container">
+        <h1>Foglalás: {{  time }}</h1>
+        <form @submit.prevent="submitBooking">
+            <input v-model="name" placeholder="név", required>
+            <input v-model="phone" placeholder="telefonszám", required>
+            <button type="submit">Foglalás</button>
+        </form>
+    </div>
 </template>
 
 <style>

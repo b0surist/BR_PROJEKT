@@ -7,6 +7,7 @@ export const useIdoStore = defineStore('ido', () => {
   const ido = ref([])
   const availableTime = []
   const bookedTime = []
+  const toast = useToast()
   const loadAll = () => {
   ('http://localhost:3000/idopontok')
       .then(resp => resp.json())
@@ -24,6 +25,7 @@ export const useIdoStore = defineStore('ido', () => {
     axios.post('https://localhost:3000/idopontok', {time, name, phone})
     this.bookedTime.push(time)
     this.Time()
+    toast.success('A foglalás sikeres')
   }
 
   return { loadAll, Time, Foglalas }
