@@ -6,7 +6,7 @@ import { useIdoStore } from '@/stores/fog.js'
 const IdoStore = useIdoStore()
 
 onMounted(() => {
-    IdoStore.LoadALL()
+    IdoStore.loadAll
 })
 </script>
 

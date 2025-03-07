@@ -4,7 +4,7 @@ import { onMounted } from 'vue'
 export default{
     setup(){
         const pont = useIdoStore()
-        onMounted(pont.loadAll)
+        onMounted(pont.loadAll())
         return {availableTime: pont.availableTime}
     }
 }
