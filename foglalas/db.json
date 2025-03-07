@@ -2,12 +2,14 @@
     "idopontok":
     [
         {
-        "nap":"kedd",
-        "idop":"10:10"
+        "time":"10:00",
+        "name":"Péter",
+        "phone":"+3553431"
         },
         {
-        "nap":"hetfo",
-        "idop":"09:10"
+        "time":"11:00",
+        "name":"Laci",
+        "phone":"+3553432"
         }
 
 ]}
