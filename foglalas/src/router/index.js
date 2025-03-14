@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Idopont from '../views/Idopont.vue'
-import Adatok from '../views/Adatok.vue'
+import Idopont from '../views/Home.vue'
+import Adatok from '../views/Booking.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
