@@ -1,15 +1,92 @@
 {
-    "idopontok":
-    [
-        {
-        "time":"10:00",
-        "name":"Péter",
-        "phone":"+3553431"
-        },
-        {
-        "time":"11:00",
-        "name":"Laci",
-        "phone":"+3553432"
-        }
-
-]}
+  "idopontok": [
+    {
+      "id": "1",
+      "day": "Hétfő",
+      "hour": "8:00",
+      "booked": true,
+      "name": "dsad",
+      "phone": "sad"
+    },
+    {
+      "id": "d549",
+      "day": "Péntek",
+      "hour": "8:00",
+      "booked": true,
+      "name": "alma",
+      "phone": "+6235"
+    },
+    {
+      "id": "c74f",
+      "day": "Szerda",
+      "hour": "10:00",
+      "booked": true,
+      "name": "peti",
+      "phone": "+6131254"
+    },
+    {
+      "id": "efe6",
+      "day": "Péntek",
+      "hour": "9:00",
+      "booked": true,
+      "name": "dzsulien",
+      "phone": "+4561"
+    },
+    {
+      "id": "f20f",
+      "day": "Kedd",
+      "hour": "16:00",
+      "booked": true,
+      "name": "Dalma",
+      "phone": "+4652"
+    },
+    {
+      "id": "e772",
+      "day": "Hétfő",
+      "hour": "8:00",
+      "booked": true,
+      "name": "banán",
+      "phone": "+3123123"
+    },
+    {
+      "id": "efa1",
+      "day": "Hétfő",
+      "hour": "11:00",
+      "booked": true,
+      "name": "körte",
+      "phone": "+3123123"
+    },
+    {
+      "id": "099a",
+      "day": "Péntek",
+      "hour": "12:00",
+      "booked": true,
+      "name": "dsad",
+      "phone": "+3213"
+    },
+    {
+      "id": "140a",
+      "day": "Péntek",
+      "hour": "13:00",
+      "booked": true,
+      "name": "dasdsdd",
+      "phone": "+312312"
+    },
+    {
+      "id": "f5d7",
+      "day": "Szerda",
+      "hour": "12:00",
+      "booked": true,
+      "name": "dasdasd",
+      "phone": "+31223"
+    },
+    {
+      "id": "ba0e",
+      "day": "Kedd",
+      "hour": "13:00",
+      "booked": true,
+      "name": "hgf",
+      "phone": "455"
+    }
+  ]
+}
